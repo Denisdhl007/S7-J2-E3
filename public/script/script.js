@@ -124,47 +124,87 @@
 // // - Ajoutez 5 prenoms dans le tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
 
-let myArray = [1, 2, 3];
-myArray.push(4);
-console.log(myArray);  // [1, 2, 3, 4]
+// let myArray = [1, 2, 3];
+// myArray.push(4);
+// console.log(myArray);  // [1, 2, 3, 4]
 
-myArray.unshift(0);
-console.log(myArray); // [0,1, 2, 3, 4]
+// myArray.unshift(0);
+// console.log(myArray); // [0,1, 2, 3, 4]
 
-
-let tableau = [];
-tableau.push(Aida);
-tableau.push(Joshia);
-tableau.push(Codina);
-tableau.push(Fafina);
-tableau.push(Don);
-console.log(tableau);
+// let tableau = [];
+// tableau.push(`Aida`);
+// tableau.push(`Joshia`);
+// tableau.push(`Codina`);
+// tableau.push(`Fafina`);
+// tableau.push(`Don`);
+// console.log(tableau);
 
 // // ### Exercice 5
 // // - Créer un tableau avec 5 prenoms 
 // // - Ajoutez Maxence au debut et Louise a la fin du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+// let tableau = [`Aida`, `Josh`,  `Amina`, `Carole`, `Karl`]
+// console.log(tableau);
+// tableau.unshift(`Fafina`);
+// console.log(tableau);
+// tableau.push(`Don`);
+// console.log(tableau);
+
 // // ### Exercice 6
 // // - Créer un tableau avec 5 prenoms 
 // // - Supprimez le 1er e dernier prenom du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+// let tableau = [`Aida`, `Josh`,  `Amina`, `Carole`, `Karl`]
+// console.log(tableau);
+// tableau.shift(0);
+// console.log(tableau);
+
 // // ### Exercice 7
 // // - Créer un tableau avec 5 prenoms 
 // // - Supprimez les 2 premiers et les 2 dernier prenoms du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+let tableau = [`Aida`, `Josh`,  `Amina`, `Carole`, `Karl`];
+
+let tableau1 = tableau.slice(`0`);
+console.log(tableau1);
+
+tableau.shift(0);
+console.log(tableau);
+
+
+let arr = [1, 2, 3, 4, 5];
+console.log(arr);
+
+let newArr = arr.slice(1);
+console.log(newArr); 
+console.log(arr); // [2, 3, 4, 5], [1, 2, 3, 4, 5]
+
+
+
 // // ### Exercice 8
 // // - Créer un tableau avec 5 prenoms 
 // // - Remplacez le 2eme prenom du tableau par Ayhan et l'avant dernier prenom du tableau par Elias du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+
 // // ### Exercice 9
 // // - Créer un tableau avec 5 prenoms (Ayoub, Jamila, Alex, Natchez, Bene)
 // // - Remplacez Jamila par Zulma et Ayoub par Adame du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+
 // // ### Exercice 10
 // // - Créer un tableau avec 5 prenoms (Ayoub, Jamila, Alex, Natchez, Bene)
 // // - Supprimez  Natchez et Bene du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+
 // // ### Exercice 11
 // // - Une classe a 10 etudiants, la classe est vide au debut et a la fin touts les etudiants doivent etre presents. Afficher un message pour chaque etidiant qui vient de rentrer en la classe et afficher touts les etudiants qui sont en classe a la fin.
+
+
 // // ### Exercice 12
 // // - Une classe a 10 etudiants, 12 etudiants rentrent en classe mais les 2 derniers se sont trompés. Vous devez les envoyer dans une autre classe et montrer les etudiants qui se sont trompés et aussi montrer la classe complete avec les 10 autres etudiants.
