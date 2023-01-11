@@ -267,54 +267,58 @@
 // // - Une classe a 10 etudiants, 12 etudiants rentrent en classe mais les 2 derniers se sont trompés. Vous devez les envoyer dans une autre classe et montrer les etudiants qui se sont trompés et aussi montrer la classe complete avec les 10 autres etudiants.
 
 let classe10 = [];
-for(let i = 0; i < 10; i++) {
-    classe10.push(`Entudiant entre en classe`)
+for(let i = 0; i < 12; i++) {
+    classe10.push(`Etudiant entre en classe`);
 }
 console.log(classe10);
+if 
 
 let classe2 = [];
 
 
-// // test
-let tableau = [];
-for(let i = 0; i < 10; i++) {
-    tableau.push(Math.floor(Math.random() * 10));
-}
-console.log(tableau);
 
-/**/ 
 
-let text = "Hello"
-let i = 0;
-do {
-  text += " Student " + i;
-  i++;
-}
-while (i < 10);  
 
-console.log(text);
+// // // test
+// let tableau = [];
+// for(let i = 0; i < 10; i++) {
+//     tableau.push(Math.floor(Math.random() * 10));
+// }
+// console.log(tableau);
 
-/**/
+// /**/ 
 
-let arr = [];
-arr.push("Etudiant 1");
-console.log(`Hello ${arr[0]}`);
-arr.push("Etudiant 2");
-console.log(`Hello ${arr[1]}`);
-arr.push("Etudiant 3");
-console.log(`Hello ${arr[2]}`);
-arr.push("Etudiant 4");
-console.log(`Hello ${arr[3]}`);
-arr.push("Etudiant 5");
-console.log(`Hello ${arr[4]}`);
-arr.push("Etudiant 6");
-console.log(`Hello ${arr[5]}`);
-arr.push("Etudiant 7");
-console.log(`Hello ${arr[6]}`);
-arr.push("Etudiant 8");
-console.log(`Hello ${arr[7]}`);
-arr.push("Etudiant 9");
-console.log(`Hello ${arr[8]}`);
-arr.push("Etudiant 10");
-console.log(`Hello ${arr[9]}`);
-console.log(arr);
+// let text = "Hello"
+// let i = 0;
+// do {
+//   text += " Student " + i;
+//   i++;
+// }
+// while (i < 10);  
+
+// console.log(text);
+
+// /**/
+
+// let arr = [];
+// arr.push("Etudiant 1");
+// console.log(`Hello ${arr[0]}`);
+// arr.push("Etudiant 2");
+// console.log(`Hello ${arr[1]}`);
+// arr.push("Etudiant 3");
+// console.log(`Hello ${arr[2]}`);
+// arr.push("Etudiant 4");
+// console.log(`Hello ${arr[3]}`);
+// arr.push("Etudiant 5");
+// console.log(`Hello ${arr[4]}`);
+// arr.push("Etudiant 6");
+// console.log(`Hello ${arr[5]}`);
+// arr.push("Etudiant 7");
+// console.log(`Hello ${arr[6]}`);
+// arr.push("Etudiant 8");
+// console.log(`Hello ${arr[7]}`);
+// arr.push("Etudiant 9");
+// console.log(`Hello ${arr[8]}`);
+// arr.push("Etudiant 10");
+// console.log(`Hello ${arr[9]}`);
+// console.log(arr);
