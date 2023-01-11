@@ -297,3 +297,13 @@ console.log(`Hello ${arr[8]}`);
 arr.push("Etudiant 10");
 console.log(`Hello ${arr[9]}`);
 console.log(arr);
+
+let text = ""
+let i = 0;
+do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);  
+
+console.log(text);
