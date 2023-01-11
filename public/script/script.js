@@ -180,7 +180,6 @@ console.log(arr);
 
 let newArr = arr.slice(1);
 console.log(newArr); 
-console.log(arr); // [2, 3, 4, 5], [1, 2, 3, 4, 5]
 
 
 
