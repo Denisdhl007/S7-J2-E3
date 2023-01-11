@@ -87,7 +87,23 @@ let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
 // let cinqBis = cinq.substring(1);
 // console.log(cinqBis);
 
-// // 6. Affiche dans la console seulement les 2 premieres lettres du 1er element , la premiere que tu mettras en minuscule et la seconde en majuscule.
+// // 6. Affiche dans la console seulement les 2 premieres lettres du 1er element, la premiere que tu mettras en minuscule et la seconde en majuscule.
+
+let six = tableau[0][0];
+console.log(six);
+
+let six1 = tableau[0][1];
+console.log(six1);
+
+let six2 = tableau[0];
+console.log(six2);
+
+let res = six2.substring(0, 2);
+console.log(res);
+
+let newRes = res.toLowerCase();
+console.log(newRes);
+
 
 
 
