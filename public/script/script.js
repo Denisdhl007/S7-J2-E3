@@ -19,7 +19,7 @@
 // // ### Exercice 3
 // // 1. Créer un tableau avec 5 éléments, affiche dans la console le 3 eme élément
 
-let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
+// let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
 
 // let trois = tableau[3];
 // console.log(trois);
@@ -89,39 +89,57 @@ let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
 
 // // 6. Affiche dans la console seulement les 2 premieres lettres du 1er element, la premiere que tu mettras en minuscule et la seconde en majuscule.
 
-let six = tableau[0][0];
-console.log(six);
+// let six = tableau[0][0];
+// console.log(six);
 
-let six1 = tableau[0][1];
-console.log(six1);
+// let six1 = tableau[0][1];
+// console.log(six1);
 
-let six2 = tableau[0];
-console.log(six2);
+// let six2 = tableau[0];
+// console.log(six2);
 
-let res = six2.substring(0, 2);
-console.log(res);
+// let res = six2.substring(0, 2);
+// console.log(res);
 
-let newRes = res.toLowerCase();
-console.log(newRes);
-let newString = newRes.substr(0, newRes.length - 1) + newRes.substr(-1).toUpperCase();
-console.log(newString);
+// let newRes = res.toLowerCase();
+// console.log(newRes);
+// let newString = newRes.substr(0, newRes.length - 1) + newRes.substr(-1).toUpperCase();
+// console.log(newString);
 
 
 // // 7. Affiche dans la console la concaténation du premier élément avec le 3eme élément
 
-let cinq = tableau[0];
-console.log(cinq);
-let cinq1 = tableau[2];
-console.log(cinq1);
-let concaténation = `voici ${cinq} et ${cinq1}`;
-console.log(concaténation);
+// let cinq = tableau[0];
+// console.log(cinq);
+// let cinq1 = tableau[2];
+// console.log(cinq1);
+// let concaténation = `voici ${cinq} et ${cinq1}`;
+// console.log(concaténation);
 
 
 // // ## Méthodes 
+
 // // ### Exercice 4
 // // - Créer un tableau vide 
 // // - Ajoutez 5 prenoms dans le tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
+
+let myArray = [1, 2, 3];
+myArray.push(4);
+console.log(myArray);  // [1, 2, 3, 4]
+
+myArray.unshift(0);
+console.log(myArray); // [0,1, 2, 3, 4]
+
+
+let tableau = [];
+tableau.push(Aida);
+tableau.push(Joshia);
+tableau.push(Codina);
+tableau.push(Fafina);
+tableau.push(Don);
+console.log(tableau);
+
 // // ### Exercice 5
 // // - Créer un tableau avec 5 prenoms 
 // // - Ajoutez Maxence au debut et Louise a la fin du tableau a l'aide d'une methode
