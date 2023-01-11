@@ -103,16 +103,18 @@ console.log(res);
 
 let newRes = res.toLowerCase();
 console.log(newRes);
-
-
-
-
+let newString = newRes.substr(0, newRes.length - 1) + newRes.substr(-1).toUpperCase();
+console.log(newString);
 
 
 // // 7. Affiche dans la console la concaténation du premier élément avec le 3eme élément
 
-
-
+let cinq = tableau[0];
+console.log(cinq);
+let cinq1 = tableau[2];
+console.log(cinq1);
+let concaténation = `voici ${cinq} et ${cinq1}`;
+console.log(concaténation);
 
 
 // // ## Méthodes 
