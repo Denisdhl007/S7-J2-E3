@@ -166,19 +166,19 @@
 // // - Supprimez les 2 premiers et les 2 dernier prenoms du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
 
-let tableau = [`Aida`, `Josh`,  `Amina`, `Carole`, `Karl`];
+// let tableau = [`Aida`, `Josh`,  `Amina`, `Carole`, `Karl`];
 
-let tableau1 = tableau.slice(`0`);
-console.log(tableau1);
+// let tableau1 = tableau.slice(`0`);
+// console.log(tableau1);
 
-tableau.shift(0);
-console.log(tableau);
+// tableau.shift(0);
+// console.log(tableau);
 
-let arr = [1, 2, 3, 4, 5];
-console.log(arr);
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr);
 
-let newArr = arr.slice(1);
-console.log(newArr); 
+// let newArr = arr.slice(1);
+// console.log(newArr); 
 
 
 
@@ -187,12 +187,23 @@ console.log(newArr);
 // // - Remplacez le 2eme prenom du tableau par Ayhan et l'avant dernier prenom du tableau par Elias du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
 
+// let tableau = [`Aida`, `Josh`, `Amina`, `Carole`, `Karl`];
+// console.log(tableau);
+// tableau[1] = 'Ayhan';
+// tableau[4] = 'Elias';
+// console.log(tableau);
+
 
 // // ### Exercice 9
 // // - Créer un tableau avec 5 prenoms (Ayoub, Jamila, Alex, Natchez, Bene)
 // // - Remplacez Jamila par Zulma et Ayoub par Adame du tableau a l'aide d'une methode
 // // - Affichez dans la console le contenu de l'array
 
+// let tableau = [`Ayoub`, `Jamila`, `Alex`, `Natchez`, `Bene`];
+// console.log(tableau);
+// tableau[1] = 'Zulma';
+// tableau[0] = 'Adame';
+// console.log(tableau);
 
 // // ### Exercice 10
 // // - Créer un tableau avec 5 prenoms (Ayoub, Jamila, Alex, Natchez, Bene)
@@ -200,9 +211,64 @@ console.log(newArr);
 // // - Affichez dans la console le contenu de l'array
 
 
+// let tableau = [`Ayoub`, `Jamila`, `Alex`, `Natchez`, `Bene`];
+// console.log(tableau);
+// tableau.splice(3,1);
+// console.log(tableau);
+// tableau.splice(3,1);
+// console.log(tableau);
+
+// // Test
+// let arr = [1, 2, 3, 4, 5];
+// arr.splice(2, 1);
+// console.log(arr); // [1, 2, 4, 5]
+
+// let arr = [1, 2, 3, 4, 5];
+// let index = arr.indexOf(3);
+// arr.splice(index,1);
+// console.log(arr); // [1, 2, 4, 5]
+
 // // ### Exercice 11
-// // - Une classe a 10 etudiants, la classe est vide au debut et a la fin touts les etudiants doivent etre presents. Afficher un message pour chaque etidiant qui vient de rentrer en la classe et afficher touts les etudiants qui sont en classe a la fin.
+// // - Une classe a 10 etudiants, la classe est vide au debut et a la fin tous les etudiants doivent etre presents. Afficher un message pour chaque etudiant qui vient de rentrer en la classe et afficher tous les etudiants qui sont en classe a la fin.
+
+// // test
+// let tableau = [];
+// for(let i = 0; i < 10; i++) {
+//     tableau.push(Math.floor(Math.random() * 10));
+// }
+// console.log(tableau);
+
+// let tableau = [];
+// for(let i = 0; i < 10; i++) {
+//     tableau.push(Math.floor(Math.random() * 10));
+// }
+// console.log(tableau);
+
+
+// let arr = [];
+// arr.push("Etudiant 1");
+// console.log(`Hello ${arr[0]}`);
+// arr.push("Etudiant 2");
+// console.log(`Hello ${arr[1]}`);
+// arr.push("Etudiant 3");
+// console.log(`Hello ${arr[2]}`);
+// arr.push("Etudiant 4");
+// console.log(`Hello ${arr[3]}`);
+// arr.push("Etudiant 5");
+// console.log(`Hello ${arr[4]}`);
+// arr.push("Etudiant 6");
+// console.log(`Hello ${arr[5]}`);
+// arr.push("Etudiant 7");
+// console.log(`Hello ${arr[6]}`);
+// arr.push("Etudiant 8");
+// console.log(`Hello ${arr[7]}`);
+// arr.push("Etudiant 9");
+// console.log(`Hello ${arr[8]}`);
+// arr.push("Etudiant 10");
+// console.log(`Hello ${arr[9]}`);
+// console.log(arr);
 
 
 // // ### Exercice 12
 // // - Une classe a 10 etudiants, 12 etudiants rentrent en classe mais les 2 derniers se sont trompés. Vous devez les envoyer dans une autre classe et montrer les etudiants qui se sont trompés et aussi montrer la classe complete avec les 10 autres etudiants.
+
