@@ -174,7 +174,6 @@ console.log(tableau1);
 tableau.shift(0);
 console.log(tableau);
 
-
 let arr = [1, 2, 3, 4, 5];
 console.log(arr);
 
