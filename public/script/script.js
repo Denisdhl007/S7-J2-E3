@@ -7,7 +7,7 @@
 
 // let tableau = [];
 // console.log(tableau);
-
+// console.log(typeof tableau);
 
 // // ### Exercice 2
 // // - créer un tableau avec un string, un integer un boolean et un tableau
@@ -20,6 +20,7 @@
 // // 1. Créer un tableau avec 5 éléments, affiche dans la console le 3 eme élément
 
 let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
+
 // let trois = tableau[3];
 // console.log(trois);
 
@@ -50,17 +51,17 @@ let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
 // console.log(deuxBis); 
 
 
-// Test 2 (Mode automatique)
-let deux = tableau[1];
-console.log(deux);
-let deuxBis = deux.toUpperCase();
-console.log(deuxBis);
-let lastChar = deuxBis[deuxBis.length - 1];
-console.log(lastChar);
-let lastChar2 = lastChar.toLowerCase();
-console.log(lastChar2);
-deuxBis = deuxBis.slice(0, -1) + lastChar2;
-console.log(deuxBis); 
+// // Test 2 (Mode automatique)
+// let deux = tableau[1];
+// console.log(deux);
+// let deuxBis = deux.toUpperCase();
+// console.log(deuxBis);
+// let lastChar = deuxBis[deuxBis.length - 1];
+// console.log(lastChar);
+// let lastChar2 = lastChar.toLowerCase();
+// console.log(lastChar2);
+// deuxBis = deuxBis.slice(0, -1) + lastChar2;
+// console.log(deuxBis); 
 
 // // 4. Affiche dans la console le 4eme élément du tableau mais uniquement sa première lettre
 
@@ -71,27 +72,26 @@ console.log(deuxBis);
 
 // // 5. Affiche dans la console le 5eme élément du tableau mais sans sa première lettre
 
-// Test uniquement Premiere lettre
-let firstLetter = tableau[4][0];
-console.log(firstLetter);
+// // Test uniquement Premiere lettre
+// let firstLetter = tableau[4][0];
+// console.log(firstLetter);
 
-let cinq = tableau[4];
-console.log(cinq);
+// // Test uniquement Premiere lettre mais tout le tableau
+// let cinq = tableau[4];
+// console.log(cinq);
+// tableau[4] = tableau[4].substring(1);
+// console.log(tableau); // Output: ['bc', 'def', 'ghi']
 
-let arr = ['abc', 'def', 'ghi'];
-tableau[4] = tableau[4].substring(1);
-console.log(tableau); // Output: ['bc', 'def', 'ghi']
+// let cinq = tableau[4];
+// console.log(cinq);
+// let cinqBis = cinq.substring(1);
+// console.log(cinqBis);
 
-
-
-
-// let quatre = tableau[4];
-// console.log(quatre);
-// let quatreBis = quatre.charAt(0);
-// console.log(quatreBis);
+// // 6. Affiche dans la console seulement les 2 premieres lettres du 1er element , la premiere que tu mettras en minuscule et la seconde en majuscule.
 
 
-// // 6. Affiche dans la console le seulement les 2 premiereres lettres du 1er element , la premiere que tu mettra en minuscule et la seconde en majuscule
+
+
 
 // // 7. Affiche dans la console la concaténation du premier élément avec le 3eme élément
 
