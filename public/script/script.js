@@ -16,12 +16,19 @@
 // let tableau = [`Emrick`];
 // console.log(tableau);
 
+// let tab = ["string",40,true,[]];
+
+// console.log(tab[0]);
+// console.log(tab[1]);
+// console.log(tab[2]);
+// console.log(tab[3]);
+
 // // ### Exercice 3
 // // 1. Créer un tableau avec 5 éléments, affiche dans la console le 3 eme élément
 
 // let tableau = [`Emrick`, `Ulrich`, `Elizabeth`, `Josh`, `Alixay`,];
 
-// let trois = tableau[3];
+// let trois = tableau[2];
 // console.log(trois);
 
 // // // 2. Affiche dans la console le 1er élément et le dernier élément
@@ -30,7 +37,13 @@
 // console.log(un);
 
 // let lastElement = tableau[tableau.length-1];
-// console.log(lastElement); // Output: 5
+// console.log(lastElement);
+
+
+// let newTab = ["le Chateau","Console","Laquet","Dorure","Exquisite"];
+// console.log(newTab[0]);
+// console.log(newTab[newTab.length-1]);
+
 
 // // 3. Affiche dans la console le 2eme élémént avec toutes ses lettres en majuscule sauf la derniere 
 
@@ -228,8 +241,8 @@
 // arr.splice(index,1);
 // console.log(arr); // [1, 2, 4, 5]
 
-// // ### Exercice 11
-// // - Une classe a 10 etudiants, la classe est vide au debut et a la fin tous les etudiants doivent etre presents. Afficher un message pour chaque etudiant qui vient de rentrer en la classe et afficher tous les etudiants qui sont en classe a la fin.
+// ### Exercice 11
+// - Une classe a 10 etudiants, la classe est vide au debut et a la fin tous les etudiants doivent etre presents. Afficher un message pour chaque etudiant qui vient de rentrer en la classe et afficher tous les etudiants qui sont en classe a la fin.
 
 // // test
 // let tableau = [];
@@ -263,62 +276,130 @@
 // console.log(arr);
 
 
-// // ### Exercice 12
-// // - Une classe a 10 etudiants, 12 etudiants rentrent en classe mais les 2 derniers se sont trompés. Vous devez les envoyer dans une autre classe et montrer les etudiants qui se sont trompés et aussi montrer la classe complete avec les 10 autres etudiants.
+let classe = [];
 
-let classe10 = [];
-for(let i = 0; i < 12; i++) {
-    classe10.push(`Etudiant entre en classe`);
+let Chris = "Chris";
+classe.push(Chris);
+alert(`${Chris} is now in the room`);
+console.log(classe);
+
+let Yan = "Yan";
+classe.push(Yan);
+alert(`${Yan} is now in the room`);
+console.log(classe);
+
+let Lili = "Lili";
+classe.push(Lili);
+alert(`${Lili} is now in the room`);
+console.log(classe);
+
+let Elizabeth = "Elizabeth";
+classe.push(Elizabeth);
+alert(`${Elizabeth} is now in the room`);
+console.log(classe);
+
+let Yan1 = "Yan1";
+classe.push(Yan1);
+alert(`${Yan1} is now in the room`);
+console.log(classe);
+
+let Yan2 = "Yan2";
+classe.push(Yan2);
+alert(`${Yan2} is now in the room`);
+console.log(classe);
+
+let Yan3 = "Yan3";
+classe.push(Yan3);
+alert(`${Yan3} is now in the room`);
+console.log(classe);
+
+
+let Yan4 = "Yan4";
+classe.push(Yan4);
+alert(`${Yan4} is now in the room`);
+console.log(classe);
+
+let Yan5 = "Yan5";
+classe.push(Yan5);
+alert(`${Yan5} is now in the room`);
+console.log(classe);
+
+let Yan6 = "Yan6";
+classe.push(Yan6);
+alert(`${Yan6} is now in the room`);
+console.log(classe);
+
+
+// ### Exercice 12
+// - Une classe a 10 etudiants, 12 etudiants rentrent en classe mais les 2 derniers se sont trompés. Vous devez les envoyer dans une autre classe et montrer les etudiants qui se sont trompés et aussi montrer la classe complete avec les 10 autres etudiants.
+
+let autreClasse = [];
+
+autreClasse.push(classe[classe.indexOf(marc)]);
+alert(`${classe.indexOf(marc)} s'est trompé de classe. Il va dans la bonne`);
+classe.splice(classe.indexOf(marc),1);
+
+console.log(autreClasse);
+
+
+autreClasse.push(classe[classe.indexOf(paul)]);
+alert(`${classe.indexOf(paul)} s'est trompé de classe. Il va dans la bonne`);
+classe.splice(classe.indexOf(paul),1);
+
+
+console.log(autreClasse);
+
+
+console.log(classe);
+console.log(autreClasse);
+
+
+
+
+
+
+
+
+// // test
+let tableau = [];
+for(let i = 0; i < 10; i++) {
+    tableau.push(Math.floor(Math.random() * 10));
 }
-console.log(classe10);
-if 
+console.log(tableau);
 
-let classe2 = [];
+/**/ 
 
+let text = "Hello"
+let i = 0;
+do {
+  text += " Student " + i;
+  i++;
+}
+while (i < 10);  
 
+console.log(text);
 
+/**/
 
-
-// // // test
-// let tableau = [];
-// for(let i = 0; i < 10; i++) {
-//     tableau.push(Math.floor(Math.random() * 10));
-// }
-// console.log(tableau);
-
-// /**/ 
-
-// let text = "Hello"
-// let i = 0;
-// do {
-//   text += " Student " + i;
-//   i++;
-// }
-// while (i < 10);  
-
-// console.log(text);
-
-// /**/
-
-// let arr = [];
-// arr.push("Etudiant 1");
-// console.log(`Hello ${arr[0]}`);
-// arr.push("Etudiant 2");
-// console.log(`Hello ${arr[1]}`);
-// arr.push("Etudiant 3");
-// console.log(`Hello ${arr[2]}`);
-// arr.push("Etudiant 4");
-// console.log(`Hello ${arr[3]}`);
-// arr.push("Etudiant 5");
-// console.log(`Hello ${arr[4]}`);
-// arr.push("Etudiant 6");
-// console.log(`Hello ${arr[5]}`);
-// arr.push("Etudiant 7");
-// console.log(`Hello ${arr[6]}`);
-// arr.push("Etudiant 8");
-// console.log(`Hello ${arr[7]}`);
-// arr.push("Etudiant 9");
-// console.log(`Hello ${arr[8]}`);
-// arr.push("Etudiant 10");
-// console.log(`Hello ${arr[9]}`);
-// console.log(arr);
+let arr = [];
+arr.push("Etudiant 1");
+console.log(`Hello ${arr[0]}`);
+arr.push("Etudiant 2");
+console.log(`Hello ${arr[1]}`);
+arr.push("Etudiant 3");
+console.log(`Hello ${arr[2]}`);
+arr.push("Etudiant 4");
+console.log(`Hello ${arr[3]}`);
+arr.push("Etudiant 5");
+console.log(`Hello ${arr[4]}`);
+arr.push("Etudiant 6");
+console.log(`Hello ${arr[5]}`);
+arr.push("Etudiant 7");
+console.log(`Hello ${arr[6]}`);
+arr.push("Etudiant 8");
+console.log(`Hello ${arr[7]}`);
+arr.push("Etudiant 9");
+console.log(`Hello ${arr[8]}`);
+arr.push("Etudiant 10");
+console.log(`Hello ${arr[9]}`);
+console.log(arr);
