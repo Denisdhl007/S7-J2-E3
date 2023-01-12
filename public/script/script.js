@@ -359,12 +359,6 @@ console.log(classe);
 console.log(autreClasse);
 
 
-
-
-
-
-
-
 // // test
 let tableau = [];
 for(let i = 0; i < 10; i++) {
