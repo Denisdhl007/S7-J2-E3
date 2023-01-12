@@ -333,22 +333,27 @@ console.log(classe);
 // ### Exercice 12
 // - Une classe a 10 etudiants, 12 etudiants rentrent en classe mais les 2 derniers se sont trompés. Vous devez les envoyer dans une autre classe et montrer les etudiants qui se sont trompés et aussi montrer la classe complete avec les 10 autres etudiants.
 
+let Lola = "Lola";
+classe.push(Lola);
+alert(`${Lola} is now in the room`);
+console.log(classe);
+
+let Jeroen = "Jeroen"
+classe.push(Jeroen);
+alert(`${Jeroen} is now in the room`);
+console.log(classe);
+
 let autreClasse = [];
 
-autreClasse.push(classe[classe.indexOf(marc)]);
-alert(`${classe.indexOf(marc)} s'est trompé de classe. Il va dans la bonne`);
-classe.splice(classe.indexOf(marc),1);
-
+autreClasse.push(classe[classe.indexOf(Lola)]);
+alert(`${classe.indexOf(Lola)} got wrong. She is now going to the right room`);
+classe.splice(classe.indexOf(Lola),1);
 console.log(autreClasse);
 
-
-autreClasse.push(classe[classe.indexOf(paul)]);
-alert(`${classe.indexOf(paul)} s'est trompé de classe. Il va dans la bonne`);
-classe.splice(classe.indexOf(paul),1);
-
-
+autreClasse.push(classe[classe.indexOf(Jeroen)]);
+alert(`${classe.indexOf(Jeroen)} got wrong. He is now going to the right room`);
+classe.splice(classe.indexOf(Jeroen),1);
 console.log(autreClasse);
-
 
 console.log(classe);
 console.log(autreClasse);
